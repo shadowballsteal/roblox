@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+* {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    min-height: 100vh;
+    /*Set the color of the background*/
+    background: #24252A;
+    /* Here we set the display to flex, is a property and we align the items in the center */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper {
+    /* All the elements which are included in this wrapper class will be centered in the middle of it */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 30vh;
+    width: 100%;
+}
+
+.form h2 {
+    margin-bottom: 20px;
+}
+
+.form {
+    /* All the elements from the form will be centered */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    min-height: 400px;
+    border: 2px solid #009900;
+    border-radius: 50px;
+    position: relative;
+    background: #17181c;
+    margin-top: 50px;
+}
+
+input[type="submit"] {
+    /* Setting the dimensions  */
+    padding: 14px 40px;
+    /* Setting the top distance */
+    margin-top: 30px;
+    /* No border displayed */
+    border: none;
+    /* Size of the text */
+    font-size: 16px;
+    /* When clicking it, it doesn't create an ugly outline */
+    outline: none;
+    /* Making the button with rounded corners */
+    border-radius: 50px;
+    /* Color of it */
+    /* background: #405DE6; */
+    background: #009900;
+    /* Color of the text */
+    color: white;
+    /* Affects the shadow when hovering */
+    box-shadow: inset 0 0 0 0 aqua;
+    transition: ease-out 0.4s;
+}
+
+.form input[type="submit"]:hover {
+    cursor: pointer;
+    /* Creates the animation */
+    box-shadow: inset 200px 0 0 0 aqua;
+}
+
+input[type="text"] {
+    border: 0;
+    background: none;
+    display: block;
+    text-align: center;
+    /* border: 2px solid #405DE6; */
+    border: 2px solid #009900;
+    padding: 14px 10px;
+    height: 17px;
+    width: 200px;
+    outline: none;
+    color: #edf0f1;
+    transition: 0.25s;
+    border-radius: 24px;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#robux {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.form i {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-size: 32px;
+    margin-right: 15px;
+    color: #009900;
+}
+
+.select-box {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.select-box .options-container {
+    background: #2f3640;
+    color: #f5f6fa;
+    max-height: 0;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.4s;
+    border-radius: 8px;
+    overflow: hidden;
+    order: 1;
+}
+
+#livechat {
+    width: 400px;
+    height: 565px;
+    background: #17181c;
+    margin-left: 10%;
+    border: 2px solid #009900;
+    border-radius: 12px;
+    position: relative;
+    overflow: auto;
+}
+
+#facebook h6:hover {
+    cursor: pointer;
+}
+
+#facebook {
+    margin-right: 10%;
+    width: 400px;
+    height: 565px;
+    background: #17181c;
+    border: 2px solid #009900;
+    border-radius: 12px;
+    position: relative;
+    overflow: auto;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-button {
+    height: 0px;
+    width: 0px;
+}
+
+::-webkit-scrollbar-corner {
+    height: 0px;
+    width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#009900, #24252A);
+    border-radius: 6px;
+}
+
+.selected {
+    background: #2f3640;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    color: #f5f6fa;
+    position: relative;
+    order: 0;
+}
+
+.selected::after {
+    content: "";
+    background: url("img/arrow-down.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 32px;
+    right: 10px;
+    top: 5px;
+    transition: all 0.4s;
+}
+
+.select-box .options-container.active {
+    max-height: 140px;
+    opacity: 1;
+    overflow-y: scroll;
+}
+
+.select-box .options-container.active+.selected::after {
+    transform: rotateX(180deg);
+    top: -6px;
+}
+
+.select-box .options-container::-webkit-scrollbar {
+    width: 8px;
+    background: #0d141f;
+    border-radius: 0 8px 8px 0;
+}
+
+.select-box .options-container::-webkit-scrollbar-thumb {
+    background: #525861;
+    border-radius: 0 8px 8px 0;
+}
+
+.select-box .option,
+.selected {
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+.select-box .option:hover {
+    background: #414b57;
+}
+
+.select-box label {
+    cursor: pointer;
+}
+
+.select-box .option .radio {
+    display: none;
+}
+
+hr {
+    width: 80%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #009900;
+    padding: 1px;
+    border: none;
+    border-radius: 12px;
+}
+
+@media only screen and (max-width:500px) {
+    .form {
+        width: calc(100% - 4px);
+    }
+    .form i {
+        left: 0%;
+    }
+    input[type="text"]:focus {
+        border-color: aqua;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    #facebook {
+        width: calc(100% - 4px);
+    }
+    #livechat {
+        width: calc(100% - 4px);
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 200px;
+        width: 100%;
+    }
+    #facebook {
+        margin: 0;
+    }
+    #livechat {
+        margin: 0;
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin-top: 200px;
+        width: 100%;
+    }
+    #facebook {
+        margin-right: 10%;
+    }
+    #livechat {
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (min-width:500px) {
+    .form input[type="text"]:focus {
+        /* When hovering, the width will be  making larger */
+        width: 270px;
+    }
+    input[type="text"]:focus {
+        /* When hovering, the width will be  making larger */
+        border-color: aqua;
+    }
+}
+
+#livechat input[type="submit"]:hover {
+    cursor: not-allowed;
+}
+
+footer {
+    margin-top: 100px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+}

