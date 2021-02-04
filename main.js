@@ -203,5 +203,5 @@ myFunction();
 
 function appear() {
     if (document.getElementById("username").value && (selected.innerHTML === "5000 Robux" || selected.innerHTML === "10000 Robux" || selected.innerHTML === "15000 Robux" || selected.innerHTML === "20000 Robux"))
-        window.location = "index2.php";
+        window.location = "index2.html";
 }
